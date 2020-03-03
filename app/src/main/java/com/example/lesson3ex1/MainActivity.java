@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void set(View view) {
-        i=rnd.nextInt(100);
-        tv.setText(getString(i));
+        i=rnd.nextInt();
+        tv.setText(String.valueOf(i));
     }
 }
