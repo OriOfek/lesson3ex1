@@ -37,6 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void set(View view) {
         i=rnd.nextInt();
-        tv.setText(String.valueOf(i));
+        tv.setText("number ="+String.valueOf(i));
     }
 }
